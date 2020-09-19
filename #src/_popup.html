@@ -1,0 +1,36 @@
+<div class="popup-wrapper">
+	<div class="form-contact popup popup-callback">
+		<form method="post" action="https://formspree.io/mirjcb@mail.ru" name="call-back">
+			<div class="hpot">
+				<input type="text" name="from" value="callback">
+			</div>
+			<a href="#" class="popup-close">x</a>
+			<span class="form-contact__label">Имя *</span>
+			<input class="form-contact__input" type="text" name="name" required>
+			<span class="form-contact__label">Телефон *</span>
+			<input class="form-contact__input" type="tel" name="tel" required>
+			<input class="button form-contact__button" type="submit" value="Отправить">
+		</form>
+	</div>
+	<div class="form-contact popup popup-catalog">
+		<form method="post" action="https://formspree.io/mirjcb@mail.ru" name="catalog">
+			<div class="hpot">
+				<input type="text" name="from" value="catalog-form">
+			</div>
+			<a href="#" class="popup-close">x</a>
+			<h3 class="form-contact__title">В данный момент каталог обновляется, оставьте заявку на интересующий продукт</h3>
+			<span class="form-contact__label">Имя *</span>
+			<input class="form-contact__input" type="text" name="name" required>
+			<span class="form-contact__label">Телефон *</span>
+			<input class="form-contact__input" type="tel" name="tel" required>
+			<span class="form-contact__label">Эл.почта</span>
+			<input class="form-contact__input" type="email" name="mail">
+			<span class="form-contact__label">Артикул</span>
+			<input class="form-contact__input" type="text" name="articule">
+			<span class="form-contact__label">Текст сообщения: *</span>
+			<textarea class="form-contact__input form-contact__input_area" name="text" required></textarea>
+			<input class="button form-contact__button" type="submit" value="Отправить">
+		</form>
+	</div>
+	<div class="popup-wrapper__overlay"></div>
+</div>
