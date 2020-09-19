@@ -834,6 +834,10 @@ body.lock {
   line-height: 12px;
 }
 
+.hpot {
+  display: none;
+}
+
 @media (max-width: 1635px) {
   .top-header__logo {
     margin-right: 0;
